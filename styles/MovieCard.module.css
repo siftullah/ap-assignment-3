@@ -1,0 +1,44 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background-color: #ddd;
+}
+
+.Link:hover {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.year {
+  color: #666;
+}
+
+.rating {
+  font-weight: 500;
+} 

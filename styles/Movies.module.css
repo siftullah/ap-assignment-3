@@ -1,0 +1,35 @@
+.pageTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.filterContainer {
+  margin-bottom: 24px;
+}
+
+.genreSelect {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.movieGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .movieGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .movieGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+} 

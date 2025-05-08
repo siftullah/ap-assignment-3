@@ -1,0 +1,50 @@
+.pageTitle {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.genreGrid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .genreGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .genreGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.genreCard {
+  display: block;
+  padding: 24px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.genreCard:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  background: #ddd;
+  text-decoration: none;
+}
+
+.genreName {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.movieCount {
+  font-size: 14px;
+  color: #666;
+} 
